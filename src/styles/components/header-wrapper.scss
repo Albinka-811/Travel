@@ -1,0 +1,152 @@
+.header {
+  margin-left: 110px;
+
+  &-wrapper {
+    margin: 35px 105px 270px 80px;
+  }
+
+  &-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+    &-nav {
+      display: flex;
+      width: 50%;
+      align-items: center;
+      margin-right: 85px;
+
+      &-list {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        &-item {
+          list-style: none;
+
+          &__link {
+            font-family: $fontInter;
+            font-size: $fontSizeXS;
+            color: $lightGray;
+            text-decoration: none;
+
+            &:hover {
+              color: $lightBlack;
+              font-weight: 500;
+            }
+          }
+        }
+
+        &-active {
+          list-style: none;
+
+          &__login,
+          &__register {
+            font-family: $fontInter;
+            font-size: $fontSizeXS;
+            font-weight: 500;
+            color: $orange;
+            text-decoration: none;
+            border: 1px solid $orange;
+            border-radius: 8px;
+            padding: 8px 46px;
+
+            &:hover {
+              color: $white;
+              background-color: $orange;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-info {
+    display: flex;
+    justify-content: space-between;
+
+    &-event {
+      &__name {
+        font-family: $fontPlayfair;
+        font-size: $fontSizeXXL;
+        mix-blend-mode: normal;
+        color: $lightBlack;
+        margin: 34px 0 74px;
+        font-weight: 700;
+      }
+
+      &-finder {
+        &__title {
+          font-family: $fontInter;
+          font-size: $fontSizeL;
+          font-weight: 600;
+          color: $lightBlack;
+          margin: 0;
+        }
+
+        &-forms {
+          &-content {
+            display: flex;
+            margin: 0 0 35px;
+
+            &:last-of-type {
+              margin: 0;
+            }
+
+            &-row {
+              display: flex;
+              align-items: stretch;
+              justify-content: flex-start;
+              border: 0.8px solid #AFB0B9;
+              border-radius: 6px;
+              margin-right: 30px;
+
+              &:last-child {
+                margin-right: 0;
+              }
+
+              &-btn,
+              &-input {
+                border: none;
+                outline: none;
+                background-color: transparent;
+              }
+
+              &-input {
+                padding: 20px 0 20px 30px;
+                font-family: $fontInter;
+                font-size: $fontSizeXS;
+                color: $lightBlack;
+                width: 180px;
+              }
+
+              &-btn {
+                padding: 0 30px 0 0;
+              }
+            }
+          }
+
+          &-btn {
+            font-family: $fontMulish;
+            background-color: $orange;
+            font-size: $fontSizeS;
+            padding: 21px 60px;
+            border-radius: 8px;
+            font-weight: 700;
+            margin-top: 50px;
+            border: none;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+hr {
+  width: 32px;
+  margin: 21px 0 48px;
+  border: 2px solid $lightBlack;
+}

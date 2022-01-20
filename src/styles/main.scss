@@ -1,0 +1,17 @@
+@import "./variables.scss";
+@import "./components/header-wrapper.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
