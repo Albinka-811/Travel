@@ -1,0 +1,47 @@
+.features {
+  display: flex;
+  align-items: center;
+
+  &-wrapper {
+    margin: 0 217px 262px 141px;
+  }
+
+  &-image {
+    margin: 16px 102px 0 0;
+  }
+
+  &-about {
+    margin-right: 30px;
+
+    &__title {
+      font-family: $fontPlayfair;
+      font-size: $fontSizeXL;
+      mix-blend-mode: normal;
+      font-weight: 700;
+      color: $black;
+      margin: 0 0 20px;
+    }
+
+    &__text {
+      font-family: $fontMulish;
+      font-size: $fontSizeS;
+      font-weight: 300;
+      line-height: 1.5;
+      color: $gray;
+      margin: 0;
+    }
+
+    &__btn {
+      background: $orange;
+      border-radius: 8px;
+      padding: 12px 38px;
+      border: none;
+      outline: none;
+      margin-top: 40px;
+      font-family: $fontInter;
+      font-size: $fontSizeXS;
+      font-weight: 600;
+      color: $white;
+    }
+  }
+}
