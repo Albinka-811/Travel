@@ -65,8 +65,10 @@
         font-weight: 600;
         color: $black;
 
-        &:hover {
-          color: $gray;
+        @media (pointer: fine){
+          &:hover {
+            color: $gray;
+          }
         }
       }
     }
