@@ -1,0 +1,46 @@
+.guides {
+  display: flex;
+  align-items: center;
+
+  &-wrapper {
+    margin: 0 154px 248px 240px;
+  }
+
+  &-content {
+    &__title {
+      font-family: $fontPlayfair;
+      font-size: $fontSizeXL;
+      mix-blend-mode: normal;
+      font-weight: 700;
+      color: $black;
+      margin: 0;
+    }
+
+    &__text {
+      font-family: $fontMulish;
+      font-size: $fontSizeS;
+      mix-blend-mode: normal;
+      font-weight: 300;
+      line-height: 1.5;
+      color: $gray;
+      margin: 20px 80px 0 0;
+    }
+
+    &__btn {
+      background: $orange;
+      border-radius: 8px;
+      padding: 12px 38px;
+      border: none;
+      outline: none;
+      margin-top: 32px;
+      font-family: $fontInter;
+      font-size: $fontSizeXS;
+      font-weight: 600;
+      color: $white;
+    }
+  }
+
+  &-image {
+    margin-right: 76px;
+  }
+}
