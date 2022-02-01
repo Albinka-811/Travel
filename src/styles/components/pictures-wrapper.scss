@@ -1,0 +1,80 @@
+.pictures {
+  margin: 40px 0 60px 120px;
+
+  &-wrapper {
+    margin: 0 240px 172px 120px;
+  }
+
+  &-about {
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+      font-family: $fontPlayfair;
+      font-size: $fontSizeXL;
+      mix-blend-mode: normal;
+      font-weight: 700;
+      color: $black;
+      margin: 0;
+    }
+
+    &-btn {
+      display: flex;
+      align-items: center;
+      background: none;
+      border: none;
+      font-family: $fontInter;
+      font-size: $fontSizeS;
+      font-weight: 600;
+      color: $orange;
+      padding: 0;
+
+      &__icon {
+        width: 4px;
+        height: 8px;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  &-column {
+    display: flex;
+    margin-top: 56px;
+
+    &-cart {
+      position: relative;
+      margin-right: 25px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &__img {
+        border-radius: 8px;
+      }
+
+      &__name {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: $white;
+        padding: 10px 20px 4px 0;
+        border-radius: 0 6px 0 0;
+        font-family: $fontInter;
+        font-size: $fontSizeS;
+        font-weight: 600;
+        color: $black;
+
+        @media (pointer: fine){
+          &:hover {
+            color: $gray;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hide {
+  display: none;
+}
