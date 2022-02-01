@@ -1,0 +1,97 @@
+.stories {
+  margin: 57px 0 75px 97px;
+
+  &-wrapper {
+    margin: 0 234px 196px 143px;
+  }
+
+  &-banner {
+    display: flex;
+    justify-content: space-between;
+
+    &-title {
+      font-family: $fontPlayfair;
+      font-size: $fontSizeXL;
+      mix-blend-mode: normal;
+      font-weight: 700;
+      color: $black;
+      margin: 0;
+    }
+
+    &-btn {
+      display: flex;
+      align-items: center;
+      background: none;
+      border: none;
+      font-family: $fontInter;
+      font-size: $fontSizeS;
+      font-weight: 600;
+      color: $orange;
+      padding: 0;
+
+      &__icon {
+        width: 4px;
+        height: 8px;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  &-line {
+    display: flex;
+    margin-top: 26px;
+
+    &-cards {
+      display: flex;
+      flex-flow: column;
+      margin-right: 20px;
+      padding: 30px 6px 0 0;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &__img {
+        width: 260px;
+        height: 233px;
+        margin-bottom: 14px;
+      }
+
+      &__title {
+        font-family: $fontInter;
+        font-size: 19px;
+        mix-blend-mode: normal;
+        margin-bottom: 14px;
+        font-weight: 700;
+        color: $black;
+      }
+
+      &__text {
+        font-family: $fontInter;
+        font-size: 15px;
+        mix-blend-mode: normal;
+        margin-bottom: 22px;
+        font-weight: 400;
+        color: $gray;
+      }
+
+      &__more {
+        background: none;
+        border: none;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        font-family: $fontInter;
+        font-size: 15px;
+        mix-blend-mode: normal;
+        font-weight: 600;
+        color: $orange;
+      }
+    }
+  }
+}
+
+.hide {
+  display: none;
+}
+

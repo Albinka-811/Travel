@@ -1,14 +1,4 @@
-function myFunction () {
-    let closed = false
-    const blocks = [...document.querySelectorAll('.pictures-column')]
-    const btn = document.getElementById('pictures-toggle')
+import { myFunction } from './plugins/viewAll'
 
-    btn.addEventListener('click', function () {
-        for (let elem of blocks.slice(1)) {
-            elem.classList.toggle('hide', closed)
-        }
-        closed = !closed
-    })
-}
-
-myFunction()
+myFunction('.pictures-column', 'pictures-toggle')
+myFunction('.stories-line', 'stories-toggle')
