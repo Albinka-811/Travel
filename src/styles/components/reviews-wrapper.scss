@@ -2,8 +2,10 @@
   display: flex;
   align-items: center;
   margin-left: 144px;
+
   &-wrapper {
     margin: 0 324px 212px 96px;
+
     &__title {
       font-family: $fontPlayfair;
       font-size: $fontSizeXL;
@@ -13,45 +15,56 @@
       margin: 0 0 0 144px;
     }
   }
+
   &-about {
     display: flex;
     flex-flow: column;
     margin-right: 170px;
+
     &__stars {
       width: 190px;
     }
+
+    &__comment,
+    &__name,
+    &__text {
+      mix-blend-mode: normal;
+    }
+
     &__comment {
       font-family: $fontMulish;
-      mix-blend-mode: normal;
       font-size: $fontSizeL;
       margin-top: 30px;
       font-weight: 400;
       line-height: 1.5;
       color: $black;
     }
+
     &__name {
       font-family: $fontInter;
-      mix-blend-mode: normal;
       font-size: $fontSizeM;
       margin-top: 40px;
       font-weight: 700;
       color: $black;
     }
+
     &__text {
       font-family: $fontInter;
-      mix-blend-mode: normal;
       font-size: $fontSizeS;
       margin-top: 10px;
       font-weight: 400;
       color: $darkGray;
     }
   }
+
   &-person {
     position: relative;
     margin-top: 60px;
+
     &-photo {
       border-radius: 16px;
     }
+
     &-shift {
       position: absolute;
       display: flex;
@@ -60,9 +73,11 @@
       background: $white;
       padding: 20px 0 0 30px;
       border-radius: 16px 0 0 0;
+
       &-prev {
         margin-right: 22px;
       }
+
       &-next {
         &__btn {
           transform: rotate(-180deg);
